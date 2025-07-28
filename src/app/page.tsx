@@ -87,15 +87,15 @@ export default function Home() {
     menuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
   }`}
 >
-  <Link href="#" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Features</Link>
-  <Link href="#" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Resources</Link>
-  <Link href="#" className="block text-sm font-medium text-gray-700 dark:text-gray-300">About</Link>
-  <a
-    href="#"
+  <Link href="https://ibrahim-ai-chat.vercel.app/chatboot" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Features</Link>
+  <Link href="https://ibrahim-ai-chat.vercel.app/chatboot" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Resources</Link>
+  <Link href="https://ibrahim-ai-chat.vercel.app/chatboot" className="block text-sm font-medium text-gray-700 dark:text-gray-300">About</Link>
+  <Link
+    href="https://ibrahim-ai-chat.vercel.app/chatboot"
     className="block px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-pink-500 rounded-lg hover:opacity-90 transition-opacity"
   >
     Get Started
-  </a>
+  </Link>
 </div>
 
           )}
